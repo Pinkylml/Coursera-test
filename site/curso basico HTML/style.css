@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+a{
+    display: inline-block;
+}
+
+header{
+    padding: 15px 0;
+}
+
+header  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header  .container a{
+    color: red;
+    text-decoration: none;
+    margin: 0 15px;
+} 
+
+
+header  .container .logo{
+   width: 100px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.boton{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+
+.boton.boton-rojo{
+    color:white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#inicio{
+    position: relative;
+}
+
+#inicio img{
+    width: 100%;
+    display: block;
+}
+
+#inicio .bloque-inicio{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 600px;
+    text-align: center;
+    margin-left: -300px;
+}
+
+#inicio .bloque-inicio h1{
+    color: blanchedalmond;
+    font-size: 35px;
+}
+
+#inicio .bloque-inicio p{
+    color: whitesmoke;
+    font-size: 15px;
+}
